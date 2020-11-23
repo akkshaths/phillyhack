@@ -1,0 +1,1 @@
+MAPBOX_ACCESS_KEY = 'pk.eyJ1IjoiYWtrc2hhdGhzIiwiYSI6ImNraGN2dWp4YzBjdG4yeXMydWpkM2poZzkifQ.GekNoGm7gaC9qxAPWN-7Cw'
