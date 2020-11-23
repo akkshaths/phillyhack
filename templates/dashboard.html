@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+        EmmissionTracker
+    </title>
+  </head>
+
+  <body>
+    <h1>
+        <a href="/">EmmssionTracker</a>
+      </h1>
+
+      <table align = "right">
+        <tr>
+            <td>
+                <button class="button" onclick="document.location = '/addRoute'">
+                    Add Route
+                </button>
+            </td>
+        </tr>
+
+      <p>
+          Daily Average: {{Day | safe}}
+
+          Monthly Average: {{Month | safe}}
+
+          Yearly Average: {{Year | safe}}
+      </p>
+
+        
+      
+  </body>
+</html>
