@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+        EmmissionTracker
+    </title>
+  </head>
+
+  <body>
+    <h1>
+        <a href="/">EmmssionTracker</a>
+      </h1>
+
+      <table align = "right">
+        <tr>
+            <td>
+                <button class="button" onclick="document.location = '/login'">
+                    Login
+                </button>
+            </td>
+            <td>
+                <button class="button" disabled>
+                    Sign Up
+                </button>
+            </td>
+        </tr>
+
+    <p>
+        {{errorMessage | safe}}
+    </p>
+    </table>
+
+        <table align = "center">
+            <form action="/checkS" method="post">
+                <tr>
+                    <h1>
+                        Signup
+                    </h1>
+                </tr>
+                <tr>
+                    <td>
+                        <p>
+                            Username
+                        </p>
+                    </td>
+                    <td>
+                        <input type="text" name="Submit"></input>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>
+                            Password
+                        </p>
+                    </td>
+                    <td>
+                        <input type="text" name="Submit"></input>
+                    </td>
+                </tr>
+                <tr>
+                    <input type = "submit" name="Submit" value = "Submit">
+                </tr>
+            </form>
+        </table>
+        
+      
+  </body>
+</html>
